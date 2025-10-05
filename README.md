@@ -70,15 +70,12 @@ It’s built with automation tools, AI models, and integrations that work togeth
 
 ---
 
-### Made with ❤️ by <strong> Uzma Khatun </strong>
+### Made with ❤️ by **Uzma Khatun**
 
 Author: Uzma Khatun <br>
 Role: AI/ML Engineer & Automation Developer <br>
-### Contact:
-📧 Email: uzmakhatun0205@gmail.com <br>
-💼 LinkedIn: [Uzma Khatun](https://www.linkedin.com/in/uzma-khatun-88b990334/) <br>
-🐙 GitHub: [Uzma Khatun](https://github.com/UzmaKhatun)
 
+### Contact:
 📧 uzmakhatun0205@gmail.com <br>
 💼 [LinkedIn](https://www.linkedin.com/in/uzma-khatun-88b990334/) <br>
 🐙 [GitHub](https://github.com/UzmaKhatun)
