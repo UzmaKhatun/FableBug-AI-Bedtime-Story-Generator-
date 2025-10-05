@@ -79,6 +79,10 @@ Role: AI/ML Engineer & Automation Developer <br>
 💼 LinkedIn: [Uzma Khatun](https://www.linkedin.com/in/uzma-khatun-88b990334/) <br>
 🐙 GitHub: [Uzma Khatun](https://github.com/UzmaKhatun)
 
+📧 uzmakhatun0205@gmail.com <br>
+💼 [LinkedIn](https://www.linkedin.com/in/uzma-khatun-88b990334/) <br>
+🐙 [GitHub](https://github.com/UzmaKhatun)
+
 ---
 
 ## ⭐ Support
