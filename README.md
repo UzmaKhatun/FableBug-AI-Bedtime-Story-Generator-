@@ -58,20 +58,16 @@ It’s built with automation tools, AI models, and integrations that work togeth
 
 ---
 
-❤️ Made with Love by Uzma Khatun
+### Made with ❤️ by <strong> Uzma Khatun </strong>
 
-Author: Uzma Khatun
-Role: AI/ML Enthusiast & Automation Developer
-Contact:
+Author: Uzma Khatun <br>
+Role: AI/ML Engineer & Automation Developer <br>
+### Contact:
+📧 Email: [Uzma Khatun](uzmakhatun0205@gmail.com) <br>
+💼 LinkedIn: [Uzma Khatun](https://www.linkedin.com/in/uzma-khatun-88b990334/) <br>
+🐙 GitHub: [UzmaKhatun](https://github.com/UzmaKhatun)
 
-📧 Email: uzmakhatun.ai@gmail.com
- (example — replace with yours)
+---
 
-💼 LinkedIn: Uzma Khatun
-
-🐙 GitHub: UzmaKhatun
-
-⭐ Support
-
+## ⭐ Support
 If you like this project, give it a ⭐ on GitHub — it helps others discover it!
-And feel free to fork and experiment with your own ideas 💡
