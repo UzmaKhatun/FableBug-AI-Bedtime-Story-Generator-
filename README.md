@@ -9,6 +9,28 @@ FableBug AI is an intelligent bedtime story generator that creates unique, engag
 
 --- 
 
+## 👨‍💻 Project Background
+
+This project was developed during my **2-month AI Engineering Internship at BXB Analytics** (July - August 2025).
+
+**Role:** AI Engineer Intern  
+**Duration:** 2 months  
+**Key Responsibilities:**
+- Designed and implemented multi-agent AI workflow using n8n
+- Integrated LLMs for story generation and content moderation
+- Developed real-time webhook communication system
+- Implemented cloud storage and PDF generation pipeline
+- Ensured child-safety with Perspective API integration
+
+**Technologies Mastered:**
+- Multi-agent AI systems
+- n8n workflow automation
+- OpenAI API integration
+- Content moderation with Perspective API
+- Cloud storage and CDN management
+
+---
+
 ## 🎥 Video Demo
 Check out FableBug AI in action:<br>
 📺 [Watch Demo on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7370693176103235584/)
