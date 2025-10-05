@@ -32,29 +32,17 @@ It’s built with automation tools, AI models, and integrations that work togeth
 
 ---
 
-## 🧠 Tech Stack
-|Technology|	Purpose|
-|----------|----------------|
-|Front-end Form	| Collects inputs like character name, gender, moral, number of pages, and art style|
-|n8n |	Core automation platform to orchestrate all AI tasks and workflows|
-|Supabase |	Serves as the cloud database to store story data and user activity logs|
-|Perspective API	|Generates creative, structured storylines and dialogues|
-|Image Generation | Creates scene-wise illustrations from AI-generated prompts|
-|HTTP Nodes |	Used for sending API requests to image generation endpoints|
-|Cloud Storage |	Stores generated images|
-|Webhook |	Connects frontend form (user input) with backend automation|
-
---- 
-
 ##  How It Works
-- User Input Form → Collects story preferences (character, moral, pages, style).
-- Webhook Trigger (Frontend → Backend) → Sends input to the n8n workflow.
-- Planner Agent → Uses LLM to generate the story blueprint.
-- Writer Agent → Use to generate full story.
-- Perspective API → To check the toxicity of generated story.
-- Illustrator Agent → Create prompts for image generation.
-- Http node → For image generation then story it to the cloud.
-- Supabase → To store user log.
+| Node | Use Case |
+|--------|---------|
+|User Input Form | Collects story preferences (character, moral, pages, style). |
+| Webhook Trigger (Frontend → Backend) | Sends input to the n8n workflow. |
+| Planner Agent | Uses LLM to generate the story blueprint. |
+| Writer Agent | Use to generate full story. |
+| Perspective API | To check the toxicity of generated story. |
+| Illustrator Agent | Create prompts for image generation. |
+| Http node | For image generation then story it to the cloud. |
+| Supabase | To store user log. |
 
 ---
 
@@ -65,7 +53,7 @@ Role: AI/ML Engineer & Automation Developer <br>
 ### Contact:
 📧 Email: [Uzma Khatun](uzmakhatun0205@gmail.com) <br>
 💼 LinkedIn: [Uzma Khatun](https://www.linkedin.com/in/uzma-khatun-88b990334/) <br>
-🐙 GitHub: [UzmaKhatun](https://github.com/UzmaKhatun)
+🐙 GitHub: [Uzma Khatun](https://github.com/UzmaKhatun)
 
 ---
 
