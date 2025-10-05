@@ -1,11 +1,15 @@
-🌙 FableBug AI - Bedtime Story Generator
+# 🌙 FableBug AI - Bedtime Story Generator
 
-Turn your imagination into heartwarming bedtime stories using AI-powered storytelling! ✨
-FableBug AI helps you generate creative, illustrated bedtime stories with unique characters, morals, and visuals — all in just a few clicks.
+Turn your imagination into heartwarming bedtime stories for your little ones using AI-powered storytelling! ✨
 
-🎥 Video Demo
+## 📖 About
+FableBug AI is an intelligent bedtime story generator that creates unique, engaging, and age-appropriate stories for children. Using advanced AI technology, it crafts personalized narratives complete with beautiful illustrations, making every bedtime special and memorable.
 
-👉 (Coming soon! I’ll add my LinkedIn video demo here)
+## 🎥 Video Demo
+
+Check out FableBug AI in action:<br>
+📺 [Watch Demo on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7370693176103235584/)
+
 
 Stay tuned for a complete walkthrough of how FableBug AI brings your ideas to life 💫
 
