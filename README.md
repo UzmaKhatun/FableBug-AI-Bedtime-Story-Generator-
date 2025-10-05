@@ -11,7 +11,8 @@ Check out FableBug AI in action:<br>
 📺 [Watch Demo on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7370693176103235584/)
 
 
-Stay tuned for a complete walkthrough of how FableBug AI brings your ideas to life 💫
+🚀 Try It Out
+Experience the magic yourself: [Launch FableBug AI](https://fable-bug-ai.netlify.app/)
 
 🚀 Overview
 
