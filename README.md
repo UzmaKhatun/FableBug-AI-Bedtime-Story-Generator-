@@ -35,14 +35,16 @@ It’s built with automation tools, AI models, and integrations that work togeth
 ##  How It Works
 | Node | Use Case |
 |--------|---------|
-|User Input Form | Collects story preferences (character, moral, pages, style). |
+| User Input Form | Collects story preferences (character, moral, pages, style). |
 | Webhook Trigger (Frontend → Backend) | Sends input to the n8n workflow. |
+| n8n | For workflow automation and connecting all services. |
+| OpenRouter | For story generation. |
 | Planner Agent | Uses LLM to generate the story blueprint. |
 | Writer Agent | Use to generate full story. |
-| Perspective API | To check the toxicity of generated story. |
+| Perspective API | For story safety and toxicity checks of generated story. |
 | Illustrator Agent | Create prompts for image generation. |
 | Http node | For image generation then story it to the cloud. |
-| Supabase | To store user log. |
+| Supabase | For user log and data storage. |
 
 ---
 
