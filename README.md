@@ -2,43 +2,49 @@
 
 Turn your imagination into heartwarming bedtime stories for your little ones using AI-powered storytelling! ✨
 
+---
+
 ## 📖 About
 FableBug AI is an intelligent bedtime story generator that creates unique, engaging, and age-appropriate stories for children. Using advanced AI technology, it crafts personalized narratives complete with beautiful illustrations, making every bedtime special and memorable.
 
-## 🎥 Video Demo
+--- 
 
+## 🎥 Video Demo
 Check out FableBug AI in action:<br>
 📺 [Watch Demo on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7370693176103235584/)
 
+---
 
-🚀 Try It Out
+## 🚀 Try It Out
 Experience the magic yourself: [Launch FableBug AI](https://fable-bug-ai.netlify.app/)
 
-🚀 Overview
+----
 
+## 🚀 Overview
 FableBug AI is a multi-agent AI workflow that automatically:
 
-Generates creative stories using AI
-
-Creates scene-by-scene illustrations
-
-Stores the stories & images securely in the cloud
-
-Delivers everything as a beautiful downloadable storybook (PDF)
-
+- Generates creative stories using AI
+- Creates scene-by-scene illustrations
+- Stores the stories & images securely in the cloud
+- Delivers everything as a beautiful downloadable storybook (PDF)
+ 
 It’s built with automation tools, AI models, and integrations that work together seamlessly.
 
-🧠 Tech Stack
-Technology	Purpose
-n8n	Core automation platform to orchestrate all AI tasks and workflows
-Perspective AI API	Generates creative, structured storylines and dialogues
-Supabase	Serves as the cloud database to store story data and user activity logs
-HTTP API Nodes	Used for sending API requests to AI text/image generation endpoints
-Image Generation API	Creates scene-wise illustrations from AI-generated prompts
-Cloud Storage (Supabase Bucket / Google Drive)	Stores generated images and final story PDFs
-Google Docs API	Compiles story text and illustrations into formatted storybooks
-Webhook	Connects frontend form (user input) with backend automation
-Front-end Form	Collects inputs like character name, gender, moral, number of pages, and art style
+---
+
+## 🧠 Tech Stack
+|Technology|	Purpose|
+|----------|----------------|
+|n8n|	Core automation platform to orchestrate all AI tasks and workflows|
+|Perspective AI API	|Generates creative, structured storylines and dialogues|
+|Supabase|	Serves as the cloud database to store story data and user activity logs|
+|HTTP API Nodes|	Used for sending API requests to AI text/image generation endpoints|
+|Image Generation API	|Creates scene-wise illustrations from AI-generated prompts|
+|Cloud Storage (Supabase Bucket / Google Drive)|	Stores generated images and final story PDFs|
+|Google Docs API	|Compiles story text and illustrations into formatted storybooks|
+|Webhook|	Connects frontend form (user input) with backend automation|
+|Front-end Form	|Collects inputs like character name, gender, moral, number of pages, and art style|
+
 n8n Agents	Handle specialized tasks like:
 🧙‍♂️ StoryCrafter Agent (text generation)
 🎨 Illustrator Agent (prompt crafting + image generation)
