@@ -35,69 +35,28 @@ It’s built with automation tools, AI models, and integrations that work togeth
 ## 🧠 Tech Stack
 |Technology|	Purpose|
 |----------|----------------|
-|n8n|	Core automation platform to orchestrate all AI tasks and workflows|
-|Perspective AI API	|Generates creative, structured storylines and dialogues|
-|Supabase|	Serves as the cloud database to store story data and user activity logs|
-|HTTP API Nodes|	Used for sending API requests to AI text/image generation endpoints|
-|Image Generation API	|Creates scene-wise illustrations from AI-generated prompts|
-|Cloud Storage (Supabase Bucket / Google Drive)|	Stores generated images and final story PDFs|
-|Google Docs API	|Compiles story text and illustrations into formatted storybooks|
-|Webhook|	Connects frontend form (user input) with backend automation|
-|Front-end Form	|Collects inputs like character name, gender, moral, number of pages, and art style|
+|Front-end Form	| Collects inputs like character name, gender, moral, number of pages, and art style|
+|n8n |	Core automation platform to orchestrate all AI tasks and workflows|
+|Supabase |	Serves as the cloud database to store story data and user activity logs|
+|Perspective API	|Generates creative, structured storylines and dialogues|
+|Image Generation | Creates scene-wise illustrations from AI-generated prompts|
+|HTTP Nodes |	Used for sending API requests to image generation endpoints|
+|Cloud Storage |	Stores generated images|
+|Webhook |	Connects frontend form (user input) with backend automation|
 
-n8n Agents	Handle specialized tasks like:
-🧙‍♂️ StoryCrafter Agent (text generation)
-🎨 Illustrator Agent (prompt crafting + image generation)
-📘 Compiler Agent (story PDF creation and upload)
-💡 Workflow Summary
+--- 
 
-User Input Form → Collects story preferences (character, moral, pages, style).
+##  How It Works
+- User Input Form → Collects story preferences (character, moral, pages, style).
+- Webhook Trigger (Frontend → Backend) → Sends input to the n8n workflow.
+- Planner Agent → Uses LLM to generate the story blueprint.
+- Writer Agent → Use to generate full story.
+- Perspective API → To check the toxicity of generated story.
+- Illustrator Agent → Create prompts for image generation.
+- Http node → For image generation then story it to the cloud.
+- Supabase → To store user log.
 
-Webhook Trigger (Frontend → Backend) → Sends input to the n8n workflow.
-
-StoryCrafter Agent → Uses AI (Perspective AI) to generate the story text.
-
-Illustrator Agent → Creates image prompts and calls the image generation API via HTTP.
-
-Compiler Agent → Uploads images to Supabase, generates a Google Doc, and exports a story PDF.
-
-Storage + Delivery → PDF stored in the cloud and link returned to user.
-
-📂 Repository Structure
-FableBug-AI-Bedtime-Story-Generator/
-│
-├── Story PDF/                # Final generated story PDFs
-├── Story Screenshots/        # Screenshots for documentation and demo
-├── README.md                 # Project documentation (this file)
-└── (You can also add)
-    ├── .env.example          # Example for environment variables
-    ├── requirements.txt      # If using Python in some automation
-    └── n8n_workflow.json     # Export of your n8n workflow (recommended!)
-
-🔧 Recommended Files to Add
-
-✅ .env.example — with placeholders for your environment variables, e.g.:
-
-SUPABASE_URL=your_supabase_url
-SUPABASE_KEY=your_supabase_key
-PERSPECTIVE_AI_API_KEY=your_api_key
-IMAGE_GEN_API_KEY=your_image_gen_api
-WEBHOOK_URL=your_webhook_url
-
-
-✅ n8n_workflow.json — export your workflow to help others replicate your automation.
-✅ requirements.txt — if any scripts or supporting code are used.
-✅ LICENSE — optional, but recommended if you want others to use your code.
-
-🪄 Future Enhancements
-
-🌐 Add a Streamlit-based frontend for interactive story generation
-
-🗣️ Add voice narration using text-to-speech
-
-🎞️ Generate animated story previews
-
-📤 Publish stories directly to social media or cloud drives
+---
 
 ❤️ Made with Love by Uzma Khatun
 
